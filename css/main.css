@@ -1,0 +1,202 @@
+@font-face{
+	font-family: popo;
+	src: url(polices/brands.ttf);
+
+}
+
+
+body{
+	font-family: arial;
+
+}
+
+h1.titre{
+
+	padding-left: 44%;
+	padding-top: 0px;
+	font-size: 80px;
+	font-family: tahoma;
+
+}
+
+h4.soustitre{
+
+	padding-left: 40%;
+	padding-top: 0px;
+
+}
+
+
+
+nav.menu ul  {
+	padding-left: 24%;
+	margin: 0px;
+	list-style-type: none;
+
+}
+
+nav.menu ul li{
+		display: inline-block;
+		padding: 10px 20px;
+		margin: 0px;
+		width: 100px;
+}
+
+nav.menu ul li a {
+
+	text-decoration: none;
+	color: black;
+	background: white;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 20px;
+
+}
+
+nav.menu ul li:hover a {
+
+	color: white ;
+	background: black ;
+	transition: 0.8s all;
+}
+
+p.flotte{
+
+	float : left;
+	
+	}
+
+p.presentation{
+
+
+}
+
+table{
+
+	text-align: right;
+}
+
+video{
+
+display: block;
+margin-right: 50%;
+float: left;
+
+}
+
+div.centre{
+
+ text-align: center;
+ margin-top: 50px;
+ 
+}
+
+div.float {
+
+	display: inline-block;
+ 	text-align: center;
+ 	padding : 20px;
+ 	opacity: 1;
+}
+
+
+div.float:hover {
+
+	display: inline-block;
+ 	text-align: center;
+ 	padding : 20px;
+ 	opacity: 0.5;
+ 	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+div.box{
+	width: 900px;
+
+
+	margin : 0 auto;
+	border : 50px solid grey;
+	background-color: grey;
+	text-align: center
+	
+}
+
+p.ballec{
+
+	float: left;
+	margin-left: 120px;
+}
+
+h3{
+
+margin-top: 150px;
+text-align: middle;
+
+}
+
+div.parcours{
+	width: 700px;
+
+	margin :0 auto;
+	text-align: middle;
+	padding-top: 30px;
+
+}
+
+
+p.papa{
+
+	text-align: middle;
+	font-family: tahoma;
+}
+
+
+p.aled{
+
+	margin-top: 150px;
+	text-align: middle;
+	font-family: tahoma;
+}
+
+div.expo{
+   opacity: 1;
+}
+
+div.expo:hover{
+	opacity : 0.5;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+div.voiture{
+
+	opacity: 1;
+}
+
+div.voiture:hover{
+opacity: 0.5;
+-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+div.vues{
+
+text-align: center;
+ margin-top: 50px;
+}
+
+
+div.cadre{
+
+	width: 550px;
+	height:700px;
+	padding-left: 48%;
+
+}
+
+div.flotte{
+
+	float: left;
+}
